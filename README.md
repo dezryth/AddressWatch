@@ -6,7 +6,7 @@ A simple, friendly GUI for tracking addresses for activity using python, Tkinter
 
 ## How
 
-Just enter addresses you want to track and press "Check Activity".
+Just enter addresses you want to track and press "Check Activity". If you would rather not use a GUI, you can run AddressWatcher.py from the command line to accomplish the same thing.
 
 ## Why
 
