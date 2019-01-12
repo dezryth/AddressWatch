@@ -13,7 +13,7 @@ addresses = [x.strip() for x in addresses]
 
 # Make API call to check addresses for use
 for address in addresses:
-    result  = urllib.urlopen("https://explorer.dcrdata.org/api/address/" + address).read()
+    result  = urllib.urlopen("http://explorer.dcrdata.org/api/address/" + address).read()
     try:
         jsonStr = json.loads(result)
         values = jsonStr["address_transactions"]
