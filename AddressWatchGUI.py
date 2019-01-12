@@ -61,14 +61,14 @@ def main():
     a = Tkinter.Text(c, height=10)
     a.pack()
 
+    ca = Tkinter.Button(c, text='Check Activity', command=lambda:check(r, a))
+    ca.pack()
+
     l2 = Tkinter.Label(c, text='Results:')
     l2.pack()
 
     r = Tkinter.Text(c, height=10)
     r.pack()
-    
-    ca = Tkinter.Button(c, text='Check Activity', command=lambda:check(r, a))
-    ca.pack()
 
     x = Tkinter.Button(c, text='Close', command=root.destroy)
     x.pack()
